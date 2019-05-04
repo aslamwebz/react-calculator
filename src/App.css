@@ -1,33 +1,56 @@
-.App {
-  text-align: center;
+#calc{
+  height: 100vh;
+  background: #fff;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.card-title {
+	width: 100%;
+	height: 60px;
+	margin: 20px 0px 10px 20px;
+	font-size: 35px !important;
+	text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn{
+  width: 90px;
+  height: 90px;
+	border:0.5px solid #eee !important;
+	padding: 10px 20px !important;
+	display: inline-block !important;
+	font-size: 20px !important;
+	cursor: pointer;
+	margin: 7px 4px !important;
+  border-radius: 7px;
+  background: #f8f9fa !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-dark{
+  padding: 10px 20px !important;
+	margin: 7px 4px !important;
+  width: 90px;
+  height: 90px;
+	border:0.5px solid #eee;
+	padding: 10px 20px !important;
+	display: inline-block;
+	font-size: 20px !important;
+	cursor: pointer;
+	margin: 7px 0;
+	border-radius: 7px;
+  background: #343a40 !important;
+  color:white !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-eq{
+	margin: 7px 4px !important;
+  width: 100% !important;
+  height: 60px;
+	border:0.5px solid #eee;
+	padding: 10px 20px !important;
+	display: inline-block;
+	font-size: 20px !important;
+	cursor: pointer;
+	margin: 7px 0;
+	border-radius: 7px;
+  background: #007bff !important;
+  color:white !important;
 }
